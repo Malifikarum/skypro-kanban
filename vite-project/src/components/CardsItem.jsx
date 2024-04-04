@@ -1,4 +1,4 @@
-function CardsItem({title, date, topic}) {
+function CardsItem({ title, date, topic}) {
   return (
     <div className="cards__item">
       <div className="cards__card card">

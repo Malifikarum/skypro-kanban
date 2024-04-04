@@ -6,7 +6,7 @@ function Main() {
       <div className="container">
         <div className="main__block">
           <div className="main__content">
-            {/* <Column ColumnName="БЕЗ СТАТУСА" /> */}
+            <Column ColumnName="БЕЗ СТАТУСА" />
             <div className="main__column">
               <div className="column__title">
                 <p>Нужно сделать</p>
