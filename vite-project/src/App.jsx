@@ -1,8 +1,8 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import PopNewCard from "./components/PopNewCard";
-import PopBrowse from "./components/PopBrowse";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import PopNewCard from "./components/Popups/PopNewCard/PopNewCard";
+import PopBrowse from "./components/Popups/PopBrowse/PopBrowse";
 
 function App() {
   return (

@@ -1,5 +1,4 @@
-import CardsItem from "./CardsItem";
-
+import CardsItem from "../CardsItem/CardsItem";
 
 function Column({ title, cardList }) {
   return (
@@ -8,13 +7,14 @@ function Column({ title, cardList }) {
         <p>{title}</p>
       </div>
       <div className="cards">
-        {cardList.map((card) =>
-        <CardsItem
-        key = {card.id}
-        title = {card.title}
-        date = {card.date}
-        topic = {card.topic}
-        />)}     
+        {cardList.map((card) => (
+          <CardsItem
+            key={card.id}
+            title={card.title}
+            date={card.date}
+            topic={card.topic}
+          />
+        ))}
       </div>
     </div>
   );
